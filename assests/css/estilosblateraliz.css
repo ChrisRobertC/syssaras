@@ -1,0 +1,148 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+main{
+	width: 100%;
+    display:flex;
+
+}
+
+header {
+	width: 100%;
+	height: 60px;
+	background: #227fbc;
+}
+header span{
+	font-size: 30px;
+	padding: 8px;
+	color: white;
+	transition: all 300ms;
+	cursor: pointer;
+	position: relative;
+	top: 10px;
+	left: 0px;
+}
+
+header span:hover{
+	background: rgba(0,0,0,0.1);
+	border-radius: 10px;
+}
+.content-menu{
+	width: 100px;
+	background: #161616;
+	transition: all 300ms;
+	
+	
+}
+
+.content-menu2{
+	margin-left: -100px;
+	transform: translateX(-100px);
+}
+
+.content-menu li{
+	list-style: none;
+	text-align: center;
+	padding: 10px;
+	color: white;
+	transition: all 300ms;
+	cursor: pointer;
+}
+
+.content-menu li:hover{
+	transform: translateY(10px);
+	background: rgba(0,0,0,0.5);
+}
+
+.content-menu li span{
+	font-size: 28px;
+}
+
+.content-menu li h4{
+	font-weight: 100;
+	transform: translateY(18px) translatex(-110px);
+	transition: 300ms;
+}
+
+.icon1{
+	color: #BA7404;
+}
+
+.icon2{
+	color: yellow;
+}
+.icon3{
+	color: #BA7404;
+}
+.icon4{
+	color: #BA7404;
+}
+.icon5{
+	color: #BA7404;
+}
+.icon6{
+	color: #BA7404;
+}
+.icon7{
+	color: #BA7404;
+}
+.icon8{
+	color: #BA7404;
+}
+.icon9{
+	color: #fff;
+}
+
+.content-menu:hover .text1{
+	transform: translateX(0px);
+	transition: 100ms;
+}
+.content-menu:hover .text2{
+	transform: translateX(0px);
+	transition: 200ms;
+}
+.content-menu:hover .text3{
+	transform: translateX(0px);
+	transition: 300ms;
+}
+.content-menu:hover .text4{
+	transform: translateX(0px);
+	transition: 400ms;
+}
+.content-menu:hover .text5{
+	transform: translateX(0px);
+	transition: 500ms;
+}
+.content-menu:hover .text6{
+	transform: translateX(0px);
+	transition: 600ms;
+}
+.content-menu:hover .text7{
+	transform: translateX(0px);
+	transition: 700ms;
+}
+.content-menu:hover .text8{
+	transform: translateX(0px);
+	transition: 800ms;
+}
+.content-menu:hover .text9{
+	transform: translateX(0px);
+	transition: 900ms;
+}
+
+article{
+	position: absolute;
+	margin: 25px;
+	padding: 30px;
+    left: 100px;
+    
+    height: 60px;
+    top: 20px;
+	
+}
+

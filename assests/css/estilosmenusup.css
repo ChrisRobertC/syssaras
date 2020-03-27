@@ -1,0 +1,29 @@
+nav.navbar {
+        background-color: #5390BD;
+        border-color: #5390BD;
+      }
+
+      .navbar-inverse .nav li a{
+        color: black;
+    }
+
+    /*Para el normal, pone de color blanco las letras
+    /*.navbar-inverse .nav li a:hover{
+        color: white;
+        background: #5390BD;
+    }*/
+
+    .navbar-inverse .nav .navbar-right li a:hover{
+        color: white;
+        background: #5390BD;
+    }
+
+    .dropdown:hover .dropdown-menu{
+      display: block;
+      border: solid;
+      border-color: #5390BD;
+      background-color: #5390BD;
+    }
+    .dropdown li:hover{
+      color: white;
+    }
